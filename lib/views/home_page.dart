@@ -4,11 +4,11 @@ import 'package:note_app/views/add_note_screen.dart';
 import 'package:note_app/widgets/emptyHome_widget.dart';
 
 class HomePage extends StatelessWidget {
-  String? noteTitle;
-  String? noteDesc;
+  final String? noteTitle;
+  final String? noteDesc;
   // final String? noteDesc;
 
-  HomePage({
+  const HomePage({
     super.key,
     this.noteTitle,
     this.noteDesc,
